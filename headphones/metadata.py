@@ -128,7 +128,7 @@ def _media_file_to_dict(mf, d):
         # include only types with meaningful string representation
         if _verify_var_type(val):
             d['$' + fld] = _as_str(val)
-
+    a=1
 
 def _row_to_dict(row, d):
     """
